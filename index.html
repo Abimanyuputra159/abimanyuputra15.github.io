@@ -27,6 +27,26 @@ body{
 		background: white;
 		margin: 15px;
 		transition: 0,2s;
+	}
+
+	button{
+		font-family: 'Prompt', sans-serif;
+        font-weight: bold;
+        background-color: lightblue;
+        color: black;
+        padding: 5px 14px;
+        border: none;
+        width: 230px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 20px;
+        transition: 0.5s;
+	}
+
+	button:hover{
+		transform: scale(1.1);
+
+	}
 		
 </style>
 <body>
@@ -39,8 +59,10 @@ body{
 <button onclick="alert('Hello!')">Hello!</button>
 </p>
 	
-	<div>
-		<button type="button" onclick="document.location.href = 'p03/table.html'">Tabel Sederhana</button>
+	<div class="klik">
+		<a onclick="alert('Apakah kamu ingin menuju ke Top 10 Friends?')" href="p03/table.html">
+            <button>Tabel Sederhana</button>
+        </a>
 		<button type="button" onclick="document.location.href = 'p03css/table.html'">Tabel CSS</button>
 		<button type="button" onclick="document.location.href = 'P03jquery/table.html'">Tabel JQUERY</button>
 		<button type="button" onclick="document.location.href = 'p03form-lvl1/form.html'">Form PMB</button>
