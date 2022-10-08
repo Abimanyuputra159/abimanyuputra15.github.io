@@ -128,6 +128,63 @@ textarea:hover {
 	}
 
 
+}
+@media only screen and (max-width: 350px){
+	/*mobile*/
+	body{
+		box-sizing: border-box;
+	}
+	.heading{
+		font-size: 12px;
+	}
+
+	.petunjuk{
+		font-size: 9px;
+	}
+
+	ol{
+		font-size: 7px;
+	}
+	tr{
+		font-size: 9px;
+	}
+
+	td{
+		font-size: 9px;
+	}
+	.first{
+		font-size: 9px;
+	}
+
+	.tabel1{
+		margin: 1px;
+		cellpadding: 2px;
+
+	}
+	.t1{
+		font-size: 9px;
+	}
+	.nomor{
+		font-size: 9px;
+	}
+
+	select{
+		font-size: 10px;
+	}
+	.luar{
+		font-size: 1rem;
+		padding: 7px;
+	}
+
+	th , td {
+		font-size: 1rem;
+	}
+
+	legend{
+		font-size: 9px;
+	}
+
+
 
 
 }
