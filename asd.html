@@ -1,84 +1,106 @@
 
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
-	<link rel="stylesheet" type="text/css" href="abi.css">
-<style type="text/css">
-body{
-	background: sandybrown;
-	color: black;
-	margin: 15px;
-	width: 60%;
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="abi.js"></script>
+    <link rel="stylesheet" href="abi.css" />
+    <title>spa-menu</title>
+  </head>
+  <body>
+  <div class="body">
+      <nav class="navbar">
+        <div class="brand">
+          <div class="firstname">Abimanyu</div>
+          <div class="lastname">Putra</div>
+        </div>
+        <ul class="navi">
+          <li><a href="#section1">Home</a></li>
+          <li><a href="#section2">About</a></li>
+          <li class="li"><a href="#tugas" class="active">Assignment</a></li>
+          <li><a href="#section4">Contact</a></li>
+        </ul>
+      </nav>
+  </div>
+
+  <div class="wrapper">
+  	<div id="konten">
+    	<div id="isikonten">
+      	<div id="tugas" class="isi__1">
+        	<button type="button" onclick="document.location.href = 'p03/table.html'">Tabel Sederhana</button>    
+        	<button type="button" onclick="document.location.href = 'p03css/table.html'">Tabel CSS</button>
+        	<button type="button" onclick="document.location.href = 'p03jquery/table.html'">Tabel JQUERY</button>
+        	<button type="button" onclick="document.location.href = 'p03form-lvl1/form.html'">Form PMB</button>
+        	<button type="button" onclick="document.location.href = 'p04css-basic/form2.html'">Form PMB-CSS</button>
+        	<button type="button" onclick="document.location.href = 'p04css-responsive/form3.html'">Form PMB-CSS-Responsive</button>
+        	<button type="button" onclick="document.location.href = 'p05-jquery-delete/table.html'">Tabel JQUERY FadeOut</button>
+        	<button type="button" onclick="document.location.href = 'p06-spa-menu/spa.html'">SPA Menu</button>
+      	</div>
+    	</div>
+  	</div>
+  </div>
+
+    
+
+  <div class="wrapper">
+    <section id="section1">
+        <img src="foto.jpg">
+        <div class="home">
+          <p class="welcome">Welcome To My Pages</p>
+          <h1>Abimanyu Putra Suteja</h1>
+          <p>NIM  : 41226149</p>
+          <p>Teknik Informatika</p>
+        </div>
+      
+    </section>
+
+    <section id="section2">
+      <div class="about">
+        <p>Perkenalkan Nama Saya Abimanyu Putra Suteja dan biasanya orang-orang panggil saya abi.</p>
+        <p>Saya lahir di Kabupaten Majalengka pada tanggal 15 September 2003.</p>
+        <p>Saya mempunyai 2 hobi, yaitu Bermain Game dan Main Basket</p>
+      </div>
+      <img src="foto2.png">
+        
+    </section>
+  </div>
+
+  
+
+    </section>
+    <section id="section4" class="contact">
+      <div id="contact">
+        <div class="wrapper">
+            <div class="footer">
+                <div class="footer-section">
+                    <h3>Alamat</h3>
+                    <p>Blok Bongas kidul RT/RW 004/005, Desa Sumberjaya, Kec. Sumberjaya, Kabupaten Majalengka</p>
+                    <p>Kode Pos : 45455</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>Email  : mralfuqon@gmail.com</p>
+                    <p>WhatsApp : 083823301326</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Social</h3>
+                    <p><b>Instagram :</b><a href="https://www.instagram.com/abimanyuputra159"> @abimanyuputra159</a></p>
+                    <p><b>Facebook :</b><a href="https://www.facebook.com/mralfuqon"> Abimanyu Putra</a></p>
+                    <p><b>Youtube :</b><a href="https://www.youtube.com/channel/UCiYKHbUSzQ_2etmDDo8tUaA"> Abimanyu Putra</a></p>
+                </div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+  
 
 
-}
-	h1{
-		color: black;
-		cursor: pointer;
-		transition: 0.2;
-	}
-	h1:hover{
-		color: black;
-		letter-spacing: 2px;
-	}
-	img{
-		width: 5cm;
-		align-content: center;
-		border-radius: 200%;
-		box-shadow: 1px 1px 4px gray;
-		padding: 5px;
-		background: white;
-		margin: 15px;
-		transition: 0,2s;
-	}
+    
 
-	button{
-		font-family: 'Prompt', sans-serif;
-        font-weight: bold;
-        background-color: lightblue;
-        color: black;
-        padding: 5px 14px;
-        border: none;
-        width: 230px;
-        border-radius: 5px;
-        cursor: pointer;
-        margin-top: 20px;
-        transition: 0.5s;
-	}
-
-	button:hover{
-		transform: scale(1.1);
-
-	}
-	body
-		
-</style>
-<body>
-	<center><h1>LATIHAN WEB</h1>
-
-<img src="276.jpg">
-
-<p>Abimanyu Putra Suteja</p>
-<p>NIM 41226149</p>
-<button onclick="alert('Hello!')">Hello!</button>
-</p>
-	
-	<div class="klik">
-		<a onclick="alert('Apakah kamu ingin menuju ke Top 10 Friends?')" href="p03/table.html">
-            <button>Tabel Sederhana</button>
-        </a>
-		<button type="button" onclick="document.location.href = 'p03css/table.html'">Tabel CSS</button>
-		<button type="button" onclick="document.location.href = 'p03jquery/table.html'">Tabel JQUERY</button>
-		<button type="button" onclick="document.location.href = 'p03form-lvl1/form.html'">Form PMB</button>
-		<button type="button" onclick="document.location.href = 'p04css-basic/form2.html'">Form PMB-CSS</button>
-		<button type="button" onclick="document.location.href = 'p04css-responsive/form3.html'">Form PMB-CSS-Responsive</button>
-		<button type="button" onclick="document.location.href = 'p05-jquery-delete/table.html'">Tabel JQUERY FadeOut</button>
-		<button type="button" onclick="document.location.href = 'p06-spa-menu/spa.html'">SPA Menu</button>
-
-	</div>
-
-</body>
+  
+  </body>
 </html>
